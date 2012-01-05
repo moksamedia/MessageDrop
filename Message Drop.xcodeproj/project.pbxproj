@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Message_DropAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Message_DropAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		478D16F414B51F3100D32DF6 /* checkmail.php in Resources */ = {isa = PBXBuildFile; fileRef = 478D16EF14B51F3100D32DF6 /* checkmail.php */; };
+		478D16F514B51F3100D32DF6 /* createnewaccount.php in Resources */ = {isa = PBXBuildFile; fileRef = 478D16F014B51F3100D32DF6 /* createnewaccount.php */; };
+		478D16F614B51F3100D32DF6 /* getmap.php in Resources */ = {isa = PBXBuildFile; fileRef = 478D16F114B51F3100D32DF6 /* getmap.php */; };
+		478D16F714B51F3100D32DF6 /* isusernametaken.php in Resources */ = {isa = PBXBuildFile; fileRef = 478D16F214B51F3100D32DF6 /* isusernametaken.php */; };
+		478D16F814B51F3100D32DF6 /* sendmessage.php in Resources */ = {isa = PBXBuildFile; fileRef = 478D16F314B51F3100D32DF6 /* sendmessage.php */; };
+		D7020CB30F158AA00084F6F3 /* GetLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7020CB20F158AA00084F6F3 /* GetLocation.m */; };
+		D72226C80F12D702000F6BF2 /* CreateNewMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D72226C70F12D702000F6BF2 /* CreateNewMessage.m */; };
+		D72226D60F12D77B000F6BF2 /* CreateNewMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72226D50F12D77B000F6BF2 /* CreateNewMessage.xib */; };
+		D72227D30F12EC28000F6BF2 /* NavBarMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72227D20F12EC28000F6BF2 /* NavBarMainWindow.xib */; };
+		D72228970F12F7F6000F6BF2 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7CB827C0F11CF5900EC6DD4 /* Preferences.xib */; };
+		D72228D80F1305AA000F6BF2 /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72228D70F1305AA000F6BF2 /* LocationController.m */; };
+		D722292B0F13159A000F6BF2 /* Location.xib in Resources */ = {isa = PBXBuildFile; fileRef = D722292A0F13159A000F6BF2 /* Location.xib */; };
+		D73DB6E31088D23100C9B335 /* IncomingMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D73DB6E11088D23100C9B335 /* IncomingMessageParser.m */; };
+		D74B6FC40F1182A20000870D /* CreateNewUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D74B6FC30F1182A20000870D /* CreateNewUser.m */; };
+		D74B70B50F1196A00000870D /* CreateNewUser2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74B70B40F1196A00000870D /* CreateNewUser2.xib */; };
+		D74B70D00F1199E80000870D /* IsUserNameTaken.m in Sources */ = {isa = PBXBuildFile; fileRef = D74B70CF0F1199E80000870D /* IsUserNameTaken.m */; };
+		D74B71EB0F11B4DE0000870D /* CreateNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = D74B71EA0F11B4DE0000870D /* CreateNewAccount.m */; };
+		D773252D0F0994B1001A531B /* MessageBank.m in Sources */ = {isa = PBXBuildFile; fileRef = D773252C0F0994B1001A531B /* MessageBank.m */; };
+		D77325300F0994BE001A531B /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = D773252F0F0994BE001A531B /* Network.m */; };
+		D77325330F0994E7001A531B /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = D77325320F0994E7001A531B /* Message.m */; };
+		D773259A0F099B20001A531B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77325990F099B20001A531B /* CoreLocation.framework */; };
+		D7A20CA50F14423700740E81 /* ViewMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A20CA10F143B6000740E81 /* ViewMessage.m */; };
+		D7A20CCF0F14436B00740E81 /* ViewMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A20CCE0F14436B00740E81 /* ViewMessage.xib */; };
+		D7A37C4E0F0FE52C0099860E /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A37C4D0F0FE52C0099860E /* MyTextView.m */; };
+		D7B5FC0A0F0EB344006F442F /* CheckMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B5FC090F0EB344006F442F /* CheckMessages.m */; };
+		D7B5FC0D0F0EB34E006F442F /* SendMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B5FC0C0F0EB34E006F442F /* SendMessages.m */; };
+		D7CB82810F11D02200EC6DD4 /* EditPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CB82800F11D02200EC6DD4 /* EditPreferences.m */; };
+		D7EF0D310F1335B300FAD8D4 /* GetLocationForMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EF0D300F1335B300FAD8D4 /* GetLocationForMessage.m */; };
+		D7EF0EA50F134DB200FAD8D4 /* CheckingMessages.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F83FC50F0F093D0098EB38 /* CheckingMessages.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Message_DropAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message_DropAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Message_DropAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message_DropAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Message Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Message Drop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* Message_Drop_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message_Drop_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		478D16EF14B51F3100D32DF6 /* checkmail.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = checkmail.php; sourceTree = "<group>"; };
+		478D16F014B51F3100D32DF6 /* createnewaccount.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = createnewaccount.php; sourceTree = "<group>"; };
+		478D16F114B51F3100D32DF6 /* getmap.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = getmap.php; sourceTree = "<group>"; };
+		478D16F214B51F3100D32DF6 /* isusernametaken.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = isusernametaken.php; sourceTree = "<group>"; };
+		478D16F314B51F3100D32DF6 /* sendmessage.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = sendmessage.php; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7020CB10F158AA00084F6F3 /* GetLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetLocation.h; sourceTree = "<group>"; };
+		D7020CB20F158AA00084F6F3 /* GetLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetLocation.m; sourceTree = "<group>"; };
+		D72226C60F12D702000F6BF2 /* CreateNewMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewMessage.h; sourceTree = "<group>"; };
+		D72226C70F12D702000F6BF2 /* CreateNewMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewMessage.m; sourceTree = "<group>"; };
+		D72226D50F12D77B000F6BF2 /* CreateNewMessage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateNewMessage.xib; sourceTree = "<group>"; };
+		D72227D20F12EC28000F6BF2 /* NavBarMainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavBarMainWindow.xib; sourceTree = "<group>"; };
+		D72228D60F1305AA000F6BF2 /* LocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationController.h; sourceTree = "<group>"; };
+		D72228D70F1305AA000F6BF2 /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationController.m; sourceTree = "<group>"; };
+		D722292A0F13159A000F6BF2 /* Location.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Location.xib; sourceTree = "<group>"; };
+		D73DB6E11088D23100C9B335 /* IncomingMessageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomingMessageParser.m; sourceTree = "<group>"; };
+		D73DB6E21088D23100C9B335 /* IncomingMessageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomingMessageParser.h; sourceTree = "<group>"; };
+		D74B6FC20F1182A20000870D /* CreateNewUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewUser.h; sourceTree = "<group>"; };
+		D74B6FC30F1182A20000870D /* CreateNewUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewUser.m; sourceTree = "<group>"; };
+		D74B70B40F1196A00000870D /* CreateNewUser2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateNewUser2.xib; sourceTree = "<group>"; };
+		D74B70CE0F1199E80000870D /* IsUserNameTaken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsUserNameTaken.h; sourceTree = "<group>"; };
+		D74B70CF0F1199E80000870D /* IsUserNameTaken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsUserNameTaken.m; sourceTree = "<group>"; };
+		D74B71E90F11B4DE0000870D /* CreateNewAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewAccount.h; sourceTree = "<group>"; };
+		D74B71EA0F11B4DE0000870D /* CreateNewAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewAccount.m; sourceTree = "<group>"; };
+		D773252B0F0994B1001A531B /* MessageBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageBank.h; sourceTree = "<group>"; };
+		D773252C0F0994B1001A531B /* MessageBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageBank.m; sourceTree = "<group>"; };
+		D773252E0F0994BE001A531B /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Network.h; path = ../Network.h; sourceTree = "<group>"; };
+		D773252F0F0994BE001A531B /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Network.m; path = ../Network.m; sourceTree = "<group>"; };
+		D77325310F0994E7001A531B /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		D77325320F0994E7001A531B /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		D77325990F099B20001A531B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D7A20CA00F143B6000740E81 /* ViewMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMessage.h; sourceTree = "<group>"; };
+		D7A20CA10F143B6000740E81 /* ViewMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMessage.m; sourceTree = "<group>"; };
+		D7A20CCE0F14436B00740E81 /* ViewMessage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewMessage.xib; sourceTree = "<group>"; };
+		D7A37C4C0F0FE52C0099860E /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
+		D7A37C4D0F0FE52C0099860E /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
+		D7B5FC080F0EB344006F442F /* CheckMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMessages.h; sourceTree = "<group>"; };
+		D7B5FC090F0EB344006F442F /* CheckMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMessages.m; sourceTree = "<group>"; };
+		D7B5FC0B0F0EB34E006F442F /* SendMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessages.h; sourceTree = "<group>"; };
+		D7B5FC0C0F0EB34E006F442F /* SendMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessages.m; sourceTree = "<group>"; };
+		D7CB827C0F11CF5900EC6DD4 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		D7CB827F0F11D02200EC6DD4 /* EditPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPreferences.h; sourceTree = "<group>"; };
+		D7CB82800F11D02200EC6DD4 /* EditPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPreferences.m; sourceTree = "<group>"; };
+		D7CB82D30F11D94200EC6DD4 /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		D7EF0D2F0F1335B300FAD8D4 /* GetLocationForMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetLocationForMessage.h; sourceTree = "<group>"; };
+		D7EF0D300F1335B300FAD8D4 /* GetLocationForMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetLocationForMessage.m; sourceTree = "<group>"; };
+		D7F83FC50F0F093D0098EB38 /* CheckingMessages.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckingMessages.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				D773259A0F099B20001A531B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D72228D60F1305AA000F6BF2 /* LocationController.h */,
+				D72228D70F1305AA000F6BF2 /* LocationController.m */,
+				D7CB82D30F11D94200EC6DD4 /* Definitions.h */,
+				1D3623240D0F684500981E51 /* Message_DropAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Message_DropAppDelegate.m */,
+				D7D96A320F0F547100771AFA /* Model */,
+				D7D96A300F0F545A00771AFA /* View */,
+				D7F83EF50F0EFD900098EB38 /* Network */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Message Drop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Message Drop */ = {
+			isa = PBXGroup;
+			children = (
+				478D16EE14B51F3100D32DF6 /* php */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+			);
+			name = "Message Drop";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* Message_Drop_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D74B70B40F1196A00000870D /* CreateNewUser2.xib */,
+				D722292A0F13159A000F6BF2 /* Location.xib */,
+				D7F83FC50F0F093D0098EB38 /* CheckingMessages.xib */,
+				D7CB827C0F11CF5900EC6DD4 /* Preferences.xib */,
+				D7A20CCE0F14436B00740E81 /* ViewMessage.xib */,
+				D72226D50F12D77B000F6BF2 /* CreateNewMessage.xib */,
+				D72227D20F12EC28000F6BF2 /* NavBarMainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77325990F099B20001A531B /* CoreLocation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		478D16EE14B51F3100D32DF6 /* php */ = {
+			isa = PBXGroup;
+			children = (
+				478D16EF14B51F3100D32DF6 /* checkmail.php */,
+				478D16F014B51F3100D32DF6 /* createnewaccount.php */,
+				478D16F114B51F3100D32DF6 /* getmap.php */,
+				478D16F214B51F3100D32DF6 /* isusernametaken.php */,
+				478D16F314B51F3100D32DF6 /* sendmessage.php */,
+			);
+			name = php;
+			path = Classes/php;
+			sourceTree = "<group>";
+		};
+		D7D96A300F0F545A00771AFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7A20CA00F143B6000740E81 /* ViewMessage.h */,
+				D7A20CA10F143B6000740E81 /* ViewMessage.m */,
+				D7020CB10F158AA00084F6F3 /* GetLocation.h */,
+				D7020CB20F158AA00084F6F3 /* GetLocation.m */,
+				D7EF0D2F0F1335B300FAD8D4 /* GetLocationForMessage.h */,
+				D7EF0D300F1335B300FAD8D4 /* GetLocationForMessage.m */,
+				D72226C60F12D702000F6BF2 /* CreateNewMessage.h */,
+				D72226C70F12D702000F6BF2 /* CreateNewMessage.m */,
+				D74B6FC20F1182A20000870D /* CreateNewUser.h */,
+				D74B6FC30F1182A20000870D /* CreateNewUser.m */,
+				D7A37C4C0F0FE52C0099860E /* MyTextView.h */,
+				D7A37C4D0F0FE52C0099860E /* MyTextView.m */,
+				D7CB827F0F11D02200EC6DD4 /* EditPreferences.h */,
+				D7CB82800F11D02200EC6DD4 /* EditPreferences.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D7D96A320F0F547100771AFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D77325310F0994E7001A531B /* Message.h */,
+				D77325320F0994E7001A531B /* Message.m */,
+				D773252B0F0994B1001A531B /* MessageBank.h */,
+				D773252C0F0994B1001A531B /* MessageBank.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D7F83EF50F0EFD900098EB38 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D74B71E90F11B4DE0000870D /* CreateNewAccount.h */,
+				D74B71EA0F11B4DE0000870D /* CreateNewAccount.m */,
+				D74B70CE0F1199E80000870D /* IsUserNameTaken.h */,
+				D74B70CF0F1199E80000870D /* IsUserNameTaken.m */,
+				D773252E0F0994BE001A531B /* Network.h */,
+				D773252F0F0994BE001A531B /* Network.m */,
+				D7B5FC0B0F0EB34E006F442F /* SendMessages.h */,
+				D7B5FC0C0F0EB34E006F442F /* SendMessages.m */,
+				D7B5FC080F0EB344006F442F /* CheckMessages.h */,
+				D73DB6E11088D23100C9B335 /* IncomingMessageParser.m */,
+				D73DB6E21088D23100C9B335 /* IncomingMessageParser.h */,
+				D7B5FC090F0EB344006F442F /* CheckMessages.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Message Drop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Message Drop" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Message Drop";
+			productName = "Message Drop";
+			productReference = 1D6058910D05DD3D006BFB54 /* Message Drop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Message Drop" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Message Drop */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Message Drop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74B70B50F1196A00000870D /* CreateNewUser2.xib in Resources */,
+				D72226D60F12D77B000F6BF2 /* CreateNewMessage.xib in Resources */,
+				D72227D30F12EC28000F6BF2 /* NavBarMainWindow.xib in Resources */,
+				D72228970F12F7F6000F6BF2 /* Preferences.xib in Resources */,
+				D722292B0F13159A000F6BF2 /* Location.xib in Resources */,
+				D7EF0EA50F134DB200FAD8D4 /* CheckingMessages.xib in Resources */,
+				D7A20CCF0F14436B00740E81 /* ViewMessage.xib in Resources */,
+				478D16F414B51F3100D32DF6 /* checkmail.php in Resources */,
+				478D16F514B51F3100D32DF6 /* createnewaccount.php in Resources */,
+				478D16F614B51F3100D32DF6 /* getmap.php in Resources */,
+				478D16F714B51F3100D32DF6 /* isusernametaken.php in Resources */,
+				478D16F814B51F3100D32DF6 /* sendmessage.php in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Message_DropAppDelegate.m in Sources */,
+				D773252D0F0994B1001A531B /* MessageBank.m in Sources */,
+				D77325300F0994BE001A531B /* Network.m in Sources */,
+				D77325330F0994E7001A531B /* Message.m in Sources */,
+				D7B5FC0A0F0EB344006F442F /* CheckMessages.m in Sources */,
+				D7B5FC0D0F0EB34E006F442F /* SendMessages.m in Sources */,
+				D7A37C4E0F0FE52C0099860E /* MyTextView.m in Sources */,
+				D74B6FC40F1182A20000870D /* CreateNewUser.m in Sources */,
+				D74B70D00F1199E80000870D /* IsUserNameTaken.m in Sources */,
+				D74B71EB0F11B4DE0000870D /* CreateNewAccount.m in Sources */,
+				D7CB82810F11D02200EC6DD4 /* EditPreferences.m in Sources */,
+				D72226C80F12D702000F6BF2 /* CreateNewMessage.m in Sources */,
+				D72228D80F1305AA000F6BF2 /* LocationController.m in Sources */,
+				D7EF0D310F1335B300FAD8D4 /* GetLocationForMessage.m in Sources */,
+				D7A20CA50F14423700740E81 /* ViewMessage.m in Sources */,
+				D7020CB30F158AA00084F6F3 /* GetLocation.m in Sources */,
+				D73DB6E31088D23100C9B335 /* IncomingMessageParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Message_Drop_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Message Drop";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Message_Drop_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Message Drop";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Message Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Message Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
