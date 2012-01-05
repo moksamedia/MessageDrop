@@ -1,4 +1,3 @@
-
 -------------------------------------------
 
 
@@ -24,12 +23,13 @@ along with MessageDrop.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------
 
 
-MessageDrop is a location-based or location-aware messaging iPhone app. The basic functionality
-of the program is operational; although, the interface is probably below the rigorous eye-candy
-standards of most iPhone applications. I began working on it several years ago and stopped
-development when I got a job and realized that I wasn't going to buy an iPhone any time soon. I
-am making the source code available on github because the application demonstrates a few
-useful functions, such as:
+MessageDrop is a location-based or location-aware messaging iPhone app. Users can "drop" messages 
+for other users at specific locations.
+
+The basic functionality of the program is operational, although the interface is probably below the 
+rigorous eye-candy standards of most iPhone applications. I am making the source code available on 
+github because the application demonstrates a few useful functions, such as:
+
 - Using php to expose a web service
 - Using php to interface with a MySQL database
 - Using NSURLRequest & NSURLConnection to send data via POST
